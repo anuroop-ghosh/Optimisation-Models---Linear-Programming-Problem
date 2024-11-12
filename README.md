@@ -17,6 +17,7 @@ What is the maximum income that can be achieved by manufacturing the carpets?
 Hint :_Income=revenue from sale-(production cost for material+labor)*
 
 **Mathematical Visualisation of the problem**
+
 LP Model:
 maximise  490x + 315y
     
@@ -24,9 +25,7 @@ subject to constraints:
         x,y ≥ 0
 		35x + 15y ≤ 1800
         15x + 45y ≤ 800
-		25x + 20y ≤ 1000  
-        
-<img width="236" alt="image" src="https://github.com/user-attachments/assets/e23f98d7-08f9-4e81-8fb8-6096ebf2d91c">
+		25x + 20y ≤ 1000
 
 **Data Read from the excel file**
 
