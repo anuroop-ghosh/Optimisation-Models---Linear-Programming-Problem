@@ -14,6 +14,7 @@ are required for each roll of the low-grade carpet, at an average cost of £7 pe
 maximum of 1000 work-hours are available.
 The cost of wool is £4 per square meter and the cost of nylon is £3 per square meter.
 What is the maximum income that can be achieved by manufacturing the carpets?
+
 Hint :_Income=revenue from sale-(production cost for material+labor)*
 
 **Key Feature:**
