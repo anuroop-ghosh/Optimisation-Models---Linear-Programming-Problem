@@ -4,7 +4,7 @@ This Python code implements a linear optimization model to solve the following p
 
 **Problem**
 
-*Smart Rug Manufacturers has available1800 square meters of wool and 800 square meters of nylon
+* Smart Rug Manufacturers has available1800 square meters of wool and 800 square meters of nylon
 for the manufacture of two grades of carpeting: high-grade, which sells for £850 per roll, and low-
 grade, which sells for £650 per roll.
 35 square meters of wool and 15 square meters of nylon are used in a roll of high-grade carpet.
