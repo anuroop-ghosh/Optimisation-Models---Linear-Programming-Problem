@@ -1,6 +1,36 @@
 ## Smart Rug Manufacturer - Linear Optimization Model
 
-This Python code implements a linear optimization model to determine the optimal production quantities for two types of smart rugs (high-grade and low-grade) to maximize total profit.
+This Python code implements a linear optimization model to solve the following problem.
+
+**Problem**
+*Smart Rug Manufacturers has available1800 square meters of wool and 800 square meters of nylon
+for the manufacture of two grades of carpeting: high-grade, which sells for £850 per roll, and low-
+grade, which sells for £650 per roll.
+35 square meters of wool and 15 square meters of nylon are used in a roll of high-grade carpet.
+15 square meters of wool and 45 square meters of nylon are used in a roll of low-grade carpet.
+25 work-hours are required to manufacture each roll of the high-grade carpet, and 20 work-hours
+are required for each roll of the low-grade carpet, at an average cost of £7 per work-hour. A
+maximum of 1000 work-hours are available.
+The cost of wool is £4 per square meter and the cost of nylon is £3 per square meter.
+What is the maximum income that can be achieved by manufacturing the carpets?
+Hint :_Income=revenue from sale-(production cost for material+labor)*
+
+**Mathematical Visualisation of the problem**
+LP Model:
+maximise  490x + 315y
+    
+subject to constraints:
+        x,y ≥ 0
+		35x + 15y ≤ 1800
+        15x + 45y ≤ 800
+		25x + 20y ≤ 1000  
+        
+<img width="236" alt="image" src="https://github.com/user-attachments/assets/e23f98d7-08f9-4e81-8fb8-6096ebf2d91c">
+
+**Data Read from the excel file**
+
+| Feature | High-Grade | Low-Grade | Available | Cost | |---|---|---|---|---| | Wool | 35 | 15 | 1800 | 4 | | Nylon | 15 | 45 | 800 | 3 | | Work Hours | 25 | 20 | 1000 | 7 | | Selling Price | 850 | 650 | | |
+
 
 **Key Feature:**
 
