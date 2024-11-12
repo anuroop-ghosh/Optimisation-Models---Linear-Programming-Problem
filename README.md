@@ -16,22 +16,6 @@ The cost of wool is £4 per square meter and the cost of nylon is £3 per square
 What is the maximum income that can be achieved by manufacturing the carpets?
 Hint :_Income=revenue from sale-(production cost for material+labor)*
 
-**Mathematical Visualisation of the problem**
-
-LP Model:
-maximise  490x + 315y
-    
-subject to constraints:
-        x,y ≥ 0
-		35x + 15y ≤ 1800
-        15x + 45y ≤ 800
-		25x + 20y ≤ 1000
-
-**Data Read from the excel file**
-
-| Feature | High-Grade | Low-Grade | Available | Cost | |---|---|---|---|---| | Wool | 35 | 15 | 1800 | 4 | | Nylon | 15 | 45 | 800 | 3 | | Work Hours | 25 | 20 | 1000 | 7 | | Selling Price | 850 | 650 | | |
-
-
 **Key Feature:**
 
 * **Data-Driven Flexibility:** The model is designed to be adaptable to user-defined data. You can modify the values in the accompanying Excel file (`Optimisation Model - Smart Rug Manufacturer Problem.xlsx`) to tailor the optimization process to your specific scenario.
