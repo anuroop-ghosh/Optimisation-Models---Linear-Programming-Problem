@@ -15,7 +15,7 @@ maximum of 1000 work-hours are available.
 The cost of wool is £4 per square meter and the cost of nylon is £3 per square meter.
 What is the maximum income that can be achieved by manufacturing the carpets?
 
-Hint :_Income=revenue from sale-(production cost for material+labor)*
+Hint :_Income=revenue from sale-(production cost for material+labor)
 
 **Key Feature:**
 
